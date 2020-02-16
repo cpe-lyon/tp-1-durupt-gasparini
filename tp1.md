@@ -16,11 +16,11 @@
 4. revenez au dossier précédent (/var) sans utiliser de chemin avec la commande **cd -**
 5. l'accès au dossier **/root** est refusé (**permission denied**)
 6. La commande **sudo** permet d'avoir temporairement des droit d'admin
-7. >**mkdir** chemin du dossier : pour créer un dossier**
-	>**touch** chemin du fichier : 		pour créer un fichier
+7. **mkdir** chemin du dossier : pour créer un dossier**
+	**touch** chemin du fichier : 		pour créer un fichier
 	
-8. >La commande **rm** permet de supprimer un fichier
-	> **rmdir** pour les dossiers
+8. La commande **rm** permet de supprimer un fichier
+	**rmdir** pour les dossiers
 9. Il est impossible de supprimer un dossier non vide 
 10.**rm -r** permet de supprimer en une seule commande Dossier2 et son contenu 
 
