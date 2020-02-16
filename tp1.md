@@ -27,6 +27,65 @@
 <h4>Navigation dans l’arborescence des fichiers</h4>
 
 
+1. **time** est utilisé pour determiner combien dure une tâche (test de performance pour des scripts ou des commandes, **date** donne la date et l'heure.
+
+2. **ls** : liste les fichier du dossier courant, **la** : liste les alias  (les fichiers avec un . sont des alias)
+
+3. le programme **ls** se situe dans le dossier **/bin**
+
+4.  donne les alias
+il n'existe pas d’entrée dans le manuel pour **ll**
+**ll** est un alias de **ls -alF**
+
+5. afficher les fichiers contenus dans le dossier **/bin** : **ls /bin**
+
+6. **ls** liste les fichiers du dossier courant
+
+7. **pwd** donne le chemin complet du dossier courant
+
+8. Que fait la commande **echo 'yo' > plop** exécutée 2 fois ? écrit un fichier **plop** et écrit **yo** à l’intérieur du fichier en écrasant le contenu
+
+9. Que fait la commande **echo 'yo' >> plop** exécutée 2 fois ? écrit à la ligne un deuxième **yo**
+
+10. la commande **file** détermine le type de fichier
+
+11. **titi** prend les modifications / à la suppression de **toto**, **titi** existe encore
+
+12. **tutu** est aussi modifié / **titi** est modifié / **titi** est supprimé mais pas **tutu**
+
+13. **cat /var/log/syslog** --> **cat** permet d'afficher le contenu d'un fichier à l'écran / **CTRL + z** stoppe / **CTRL + c** arrête / CTRL+s met en pause /  **CTRL+q** reprise
+
+14. **head -5 /var/log/syslog**--> Affiche les 5 premières lignes du fichier
+	**tail -15 /var/log/syslog** --> Affichez les 15 dernières lignes du fichier
+	**head -20 /var/log/syslog | tail -10** --> affiche les lignes 10 à 20
+
+15. **dmesg | less** : Afficher et contrôler le tampon des messages du noyau page par page
+
+16. le fichier **/etc/passwd ** contient le fichier des utilisateurs du système
+**sudo man /etc/passwd** --> commande pour afficher le manuel
+
+17. Affichez seulement la première colonne triée par ordre alphabétique inverse : **sudo cut -c1 /etc/passwd | sort -r**
+18. **sudo cat /etcpasswd | awk ‘ED {print NR}’** --> donne le nombre d’utilisateurs ayant un compte sur cette machine
+
+19. **find**
+
+20. **find / -name “passwd” -print**
+
+21. **find / -name “passwd” -print | >> ~/list_passwd_files.txt**
+
+22. Dans votre dossier personnel, utilisez la commande **grep** pour chercher où est défini l’alias ll vu précédemment : **grep ~ ^ll**
+
+23. **ocate history.log**
+
+24. le fichier n’apparait pas
+
+
+
+
+
+
+
+
 
 
 
